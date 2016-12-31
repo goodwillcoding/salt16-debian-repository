@@ -1,0 +1,23 @@
+Package: salt
+Binary: salt-common, salt-master, salt-minion, salt-syndic, salt-doc
+Version: 0.16.4-1precise
+Maintainer: Corey Quinn <corey@sequestered.net>
+Build-Depends: debhelper (>= 7.0.50), cython, python | python-all | python-dev | python-all-dev, python-crypto, python-jinja2, python-m2crypto, python-setuptools, python-sphinx, python-yaml, python-zmq, msgpack-python
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (native)
+Directory: pool/main/s/salt
+Files:
+ 51822fd3a6ce3dff8bcec98043e6ceec 1334 salt_0.16.4-1precise.dsc
+ 83c0857d7468e0d4b1a689d38b5a7220 11127645 salt_0.16.4-1precise.tar.gz
+Homepage: http://saltstack.org
+Checksums-Sha512:
+ 031909c356de6673671a4e346d64b1093ec71cd5654a94fbaa0e045656676b26be1a96896b91004a7d5ca592d4185d98fb41d42cedfa7eecffb70f21dcdb8318 1334 salt_0.16.4-1precise.dsc
+Python-Version: >= 2.6, <= 2.7
+Checksums-Sha1:
+ be2e84cd9ecf6820d369252966c217ad1facf200 1334 salt_0.16.4-1precise.dsc
+ a9278ed21ecbaed92a9df14dc44a9a77c4074241 11127645 salt_0.16.4-1precise.tar.gz
+Checksums-Sha256:
+ 1eca8b9172f44d3a5c1899784b5d1fe86723edffb3640fa8c488bfaae2f1df91 1334 salt_0.16.4-1precise.dsc
+ 24ed085fe1d15ecf5f349a58aacff88404240c02b166fe2f5aa0de8bc5963ba0 11127645 salt_0.16.4-1precise.tar.gz
+

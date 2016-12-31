@@ -1,0 +1,5 @@
+Origin: My random collection
+Label: My Debian Packages Repository
+Archive: xenial
+Architecture: source
+Component: main
